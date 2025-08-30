@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Rooms;
+import model.entities.Rooms;
 
 public class Array_3 {
 

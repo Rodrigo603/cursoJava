@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Rectangle;
+import model.entities.Rectangle;
 
 public class Exercicio3 {
 

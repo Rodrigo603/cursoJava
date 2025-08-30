@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Product;
+import model.entities.Product;
 
 public class Exercicio2 {
 
@@ -20,7 +20,6 @@ public class Exercicio2 {
 		System.out.print("Quantidade: ");
 		int quantity = sc.nextInt();
 		Product product = new Product(name,price,quantity);
-		product.setName("Computer");
 		System.out.println("Updated name: " + product.getName());
 		System.out.println();
 		System.out.println("Product data: " + product); //chamo a forma do print da classe Product

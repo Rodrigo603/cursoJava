@@ -2,7 +2,8 @@ package application;
 
 import java.util.Locale;
 import java.util.Scanner;
-import entities.Triangle;
+
+import model.entities.Triangle;
 
 public class inicio {
 
